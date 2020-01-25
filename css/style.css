@@ -10173,7 +10173,7 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
 
 .owl-carousel.home-slider {
   position: relative;
-  height: 600px;
+  height: 730px;
   z-index: 0;
 }
 
@@ -10181,7 +10181,7 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  height: 600px;
+  height: 730px;
   position: relative;
   z-index: 0;
 }
@@ -10203,7 +10203,7 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
 }
 
 .owl-carousel.home-slider .slider-item .slider-text {
-  height: 600px;
+  height: 730px;
 }
 
 @media (max-width: 767.98px) {
