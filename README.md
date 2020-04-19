@@ -1,14 +1,26 @@
-<p align="center"><img src="https://github.com/figonzal1/centroamai.cl/blob/master/images/amai_logo.png?raw=true" style="display: block;margin-left: auto;margin-right: auto;width: 50%;"></p>
+<p align="center">
+  <img src="https://github.com/figonzal1/centroamai.cl/blob/master/images/amai_logo.png?raw=true" style="display: block;margin-left: auto;margin-right: auto;width: 50%;">
+</p>
+
+<h1 align="center">Centro AMAI</h1>
 
 <p align="center">
-  <a href="https://www.codefactor.io/repository/github/figonzal1/centroamai.cl/overview/master" alt="CodeFactor">
-        <img src="https://www.codefactor.io/repository/github/figonzal1/centroamai.cl/badge/master" />
+  
+  <a href="https://www.codefactor.io/repository/github/figonzal1/centroamai.cl">
+    <img src="https://www.codefactor.io/repository/github/figonzal1/centroamai.cl/badge" alt="CodeFactor" />
   </a>
-  <a href="https://dashboard.heroku.com/apps/centro-amai" alt="Deploy Heroku">
-        <img src="http://heroku-badge.herokuapp.com/?app=centro-amai)" />
+  
+  <a href="https://img.shields.io/github/repo-size/figonzal1/centroamai.cl">
+    <img alt="GitHub size" src="https://img.shields.io/github/repo-size/figonzal1/centroamai.cl">
+  </a>
+  
+  <a href="https://img.shields.io/github/last-commit/figonzal1/centroamai.cl">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/figonzal1/centroamai.cl">
+  </a>
+  
+  <a href="https://img.shields.io/uptimerobot/status/m784775616-50307778dc713b9f4b3d7d6e?label=website%20status">
+    <img alt="Uptime Robot status" src="https://img.shields.io/uptimerobot/status/m784775616-50307778dc713b9f4b3d7d6e?label=website%20status">
   </a>
 </p>
 
-<p align="center">Visita <a href="https://www.centroamai.cl" alt="Deploy Heroku">www.centroamai.cl</a></<p>
-
-Repositorio con del código fuente de la página web del Centro de Apoyo a la Maternidad y Alimentación Infantil (AMAI)
+Repositorio con el código fuente de la página web del Centro de Apoyo a la Maternidad y Alimentación Infantil (AMAI)
