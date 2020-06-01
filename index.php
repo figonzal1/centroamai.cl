@@ -64,7 +64,7 @@ header("Content-Security-Policy:frame-ancestors 'none'; default-src 'self';style
 
 		<div class="container d-flex align-items-center">
 
-			<a class="navbar-brand" href="index.html">
+			<a class="navbar-brand" href="index.php">
 				<img src="images/amai_logo.png" height="60" alt="">
 			</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav" aria-controls="nav"
@@ -74,10 +74,10 @@ header("Content-Security-Policy:frame-ancestors 'none'; default-src 'self';style
 
 			<div class="collapse navbar-collapse" id="nav">
 				<ul class="navbar-nav ml-auto">
-					<li class="nav-item"><a href="index.html#inicio" class="nav-link pl-0">Inicio</a></li>
-					<li class="nav-item"><a href="index.html#servicios" class="nav-link">Servicios</a></li>
-					<li class="nav-item"><a href="index.html#especialistas" class="nav-link">Especialistas</a></li>
-					<li class="nav-item"><a href="index.html#contacto" class="nav-link">Contacto</a></li>
+					<li class="nav-item"><a href="index.php#inicio" class="nav-link pl-0">Inicio</a></li>
+					<li class="nav-item"><a href="index.php#servicios" class="nav-link">Servicios</a></li>
+					<li class="nav-item"><a href="index.php#especialistas" class="nav-link">Especialistas</a></li>
+					<li class="nav-item"><a href="index.php#contacto" class="nav-link">Contacto</a></li>
 					</li>
 				</ul>
 			</div>
@@ -812,17 +812,17 @@ header("Content-Security-Policy:frame-ancestors 'none'; default-src 'self';style
 							<hr class="hr-light" style="max-width: 25%;margin: 0;">
 						</div>
 						<ul class="list-unstyled">
-							<li><a href="index.html#inicio"><span
+							<li><a href="index.php#inicio"><span
 										class="ion-ios-arrow-round-forward mr-2"></span>Inicio</a>
 							</li>
-							<li><a href="index.html#servicios"><span
+							<li><a href="index.php#servicios"><span
 										class="ion-ios-arrow-round-forward mr-2"></span>Servicios</a>
 							</li>
 							<li>
-								<a href="index.html#especialistas"><span
+								<a href="index.php#especialistas"><span
 										class="ion-ios-arrow-round-forward mr-2"></span>Especialistas</a>
 							</li>
-							<li><a href="index.html#contacto"><span
+							<li><a href="index.php#contacto"><span
 										class="ion-ios-arrow-round-forward mr-2"></span>Contacto</a>
 							</li>
 
