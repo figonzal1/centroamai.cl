@@ -1,3 +1,11 @@
+<?php
+header('X-Content-Type-Options: nosniff');
+header('X-Frame-Options: DENY');
+header("X-XSS-Protection: 1; mode=block");
+header("Referrer-Policy: no-referrer");
+header("Feature-Policy: camera 'none'; fullscreen 'none'; geolocation 'none'; microphone 'none';");
+header("Content-Security-Policy:frame-ancestors 'none'; default-src 'self';style-src 'self' 'unsafe-inline';script-src 'self' 'sha256-ajGjo5eD0JzFPdnpuutKT6Sb5gLu+Q9ru594rwJogGQ=' 'sha256-vvt4KWwuNr51XfE5m+hzeNEGhiOfZzG97ccfqGsPwvE=' https://maps.googleapis.com ;frame-src https://www.google.com ");
+?>
 <!DOCTYPE html>
 <html lang="es">
 
@@ -25,6 +33,8 @@
 
 	<!--FAvicon -->
 	<link rel="shortcut icon" type="image/png" href="images/favicon.ico">
+
+
 </head>
 
 <body data-spy="scroll" data-target="navbar" data-offset="20" style="position: relative;">
