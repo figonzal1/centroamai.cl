@@ -14,13 +14,17 @@
     <img alt="GitHub size" src="https://img.shields.io/github/repo-size/figonzal1/centroamai.cl">
   </a>
   
-  <a href="https://img.shields.io/github/last-commit/figonzal1/centroamai.cl">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/figonzal1/centroamai.cl">
+  <a href="https://img.shields.io/github/last-commit/figonzal1/centroamai.cl?color=yellow">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/figonzal1/centroamai.cl?color=yellow">
   </a>
   
   <a href="https://img.shields.io/uptimerobot/status/m784775616-50307778dc713b9f4b3d7d6e?label=website%20status">
     <img alt="Uptime Robot status" src="https://img.shields.io/uptimerobot/status/m784775616-50307778dc713b9f4b3d7d6e?label=website%20status">
+  
+  <a href="https://securityheaders.com/?q=centroamai.cl&hide=on&followRedirects=on">
+  <img alt="Security Headers" src="https://img.shields.io/security-headers?url=https%3A%2F%2Fcentroamai.cl">
   </a>
+  
 </p>
 
 Repositorio con el código fuente de la página web del Centro de Apoyo a la Maternidad y Alimentación Infantil (AMAI)
