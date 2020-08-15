@@ -1,0 +1,170 @@
+/*PORTADA*/
+
+.no-webp .slider-item#item1 {
+    background-image: url(../images/fotos_portada2.jpeg);
+}
+
+.webp .slider-item#item1 {
+    background-image: url(../images/fotos_portada2.webp);
+}
+
+.no-webp .slider-item#item2 {
+    background-image: url(../images/fotos_portada1.jpeg);
+}
+
+.webp .slider-item#item2 {
+    background-image: url(../images/fotos_portada1.webp);
+}
+
+.no-webp .slider-item#item3 {
+    background-image: url(../images/fotos_portada3.jpeg);
+}
+
+.webp .slider-item#item3 {
+    background-image: url(../images/fotos_portada3.webp);
+}
+
+
+/* GALERIA */
+
+.no-webp .gallery#foto1 {
+    background-image: url(../images/fotos_amai.jpeg);
+}
+
+.webp .gallery#foto1 {
+    background-image: url(../images/fotos_amai.webp);
+}
+
+.no-webp .gallery#foto2 {
+    background-image: url(../images/fotos_portada1.jpeg);
+}
+
+.webp .gallery#foto2 {
+    background-image: url(../images/fotos_portada1.webp);
+}
+
+.no-webp .gallery#foto3 {
+    background-image: url(../images/amai_logo.jpg);
+}
+
+.webp .gallery#foto3 {
+    background-image: url(../images/amai_logo.webp);
+}
+
+.no-webp .gallery#foto4 {
+    background-image: url(../images/fotos_amai3.jpeg);
+}
+
+.webp .gallery#foto4 {
+    background-image: url(../images/fotos_amai3.webp);
+}
+
+.no-webp .gallery#foto5 {
+    background-image: url(../images/fotos_portada3.jpeg);
+}
+
+.webp .gallery#foto5 {
+    background-image: url(../images/fotos_portada3.webp);
+}
+
+.no-webp .gallery#foto6 {
+    background-image: url(../images/fotos_amai4.jpeg);
+}
+
+.webp .gallery#foto6 {
+    background-image: url(../images/fotos_amai4.webp);
+}
+
+.no-webp .gallery#foto7 {
+    background-image: url(../images/fotos_portada2.jpeg);
+}
+
+.webp .gallery#foto7 {
+    background-image: url(../images/fotos_portada2.webp);
+}
+
+.no-webp .gallery#foto8 {
+    background-image: url(../images/fotos_amai1.jpeg);
+}
+
+.webp .gallery#foto8 {
+    background-image: url(../images/fotos_amai1.webp);
+}
+
+
+/*ESPECIALISTAS */
+
+.no-webp .img#item1 {
+    background-image: url(../images/mauro_rivera.jpg);
+}
+
+.webp .img#item1 {
+    background-image: url(../images/mauro_rivera.webp);
+}
+
+.no-webp .img#item2 {
+    background-image: url(../images/carmina_nicolai.jpg);
+}
+
+.webp .img#item2 {
+    background-image: url(../images/carmina_nicolai.webp);
+}
+
+.no-webp .img#item3 {
+    background-image: url(../images/jose_zuniga.jpg);
+}
+
+.webp .img#item3 {
+    background-image: url(../images/jose_zuniga.webp);
+}
+
+.no-webp .img#item4 {
+    background-image: url(../images/daniel_oliva.jpg);
+}
+
+.webp .img#item4 {
+    background-image: url(../images/daniel_oliva.webp);
+}
+
+.no-webp .img#item5 {
+    background-image: url(../images/pia_espejo.jpg);
+}
+
+.webp .img#item5 {
+    background-image: url(../images/pia_espejo.webp);
+}
+
+.no-webp .img#item6 {
+    background-image: url(../images/rocio_rodriguez.jpg);
+}
+
+.webp .img#item6 {
+    background-image: url(../images/rocio_rodriguez.webp);
+}
+
+.no-webp .img#item7 {
+    background-image: url(../images/claudia_tapia.jpg);
+}
+
+.webp .img#item7 {
+    background-image: url(../images/claudia_tapia.webp);
+}
+
+.no-webp .img#item8 {
+    background-image: url(../images/karla_lopez.jpg);
+}
+
+.webp .img#item8 {
+    background-image: url(../images/karla_lopez.webp);
+}
+
+
+/*MISION Y VISION*/
+
+.no-webp .ftco-section#section-counter {
+    background-image: url(../images/foto_mision_vision.jpg);
+}
+
+.webp .ftco-section#section-counter {
+    background-image: url(../images/foto_mision_vision.webp);
+}

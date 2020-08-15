@@ -4,7 +4,7 @@ header('X-Frame-Options: DENY');
 header("X-XSS-Protection: 1; mode=block");
 header("Referrer-Policy: no-referrer");
 header("Feature-Policy: camera 'none'; fullscreen 'none'; geolocation 'none'; microphone 'none';");
-header("Content-Security-Policy:frame-ancestors 'none'; default-src 'self';style-src 'self' 'unsafe-inline';script-src 'self' 'sha256-ajGjo5eD0JzFPdnpuutKT6Sb5gLu+Q9ru594rwJogGQ=' 'sha256-vvt4KWwuNr51XfE5m+hzeNEGhiOfZzG97ccfqGsPwvE=' https://maps.googleapis.com ;frame-src https://www.google.com ");
+header("Content-Security-Policy:frame-ancestors 'none'; default-src 'self';img-src 'self' data:;style-src 'self' 'unsafe-inline';script-src 'self' 'sha256-ajGjo5eD0JzFPdnpuutKT6Sb5gLu+Q9ru594rwJogGQ=' 'sha256-vvt4KWwuNr51XfE5m+hzeNEGhiOfZzG97ccfqGsPwvE=' 'sha256-Mrs88g1byVkLHsPw+1FUhrKsHB9Qh7nyDJ7afahdX9s=' 'sha256-eGG8qgSAZWp6J3WOiPYNCznSvv4IDhyKZs5w6fwksLs=' https://maps.googleapis.com ;frame-src https://www.google.com ");
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -13,8 +13,7 @@ header("Content-Security-Policy:frame-ancestors 'none'; default-src 'self';style
 	<title>Centro Amaï - La Serena</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta name="description"
-		content="Centro de Apoyo a la Maternidad y Alimentación Infantil. Contamos con profesionales altamente capacitadas en lactancia y alimentación." />
+	<meta name="description" content="Centro de Apoyo a la Maternidad y Alimentación Infantil. Contamos con profesionales altamente capacitadas en lactancia y alimentación." />
 
 	<link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
 	<link rel="stylesheet" href="css/animate.css">
@@ -30,6 +29,7 @@ header("Content-Security-Policy:frame-ancestors 'none'; default-src 'self';style
 	<link rel="stylesheet" type="text/css" href="fonts/flaticon/font/flaticon.css">
 	<link rel="stylesheet" href="css/icomoon.css">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/custom.css">
 
 	<!--FAvicon -->
 	<link rel="shortcut icon" type="image/png" href="images/favicon.ico">
@@ -65,10 +65,13 @@ header("Content-Security-Policy:frame-ancestors 'none'; default-src 'self';style
 		<div class="container d-flex align-items-center">
 
 			<a class="navbar-brand" href="index.php">
-				<img src="images/amai_logo.png" height="60" alt="">
+				<picture>
+					<source srcset="images/amai_logo_sf.webp" type="image/webp">
+					<source srcset="images/amai_logo.png" type="image/png">
+					<img src="amai_logo.png" height="60">
+				</picture>
 			</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav" aria-controls="nav"
-				aria-expanded="false" aria-label="Toggle Navigation">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav" aria-controls="nav" aria-expanded="false" aria-label="Toggle Navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
 
@@ -87,12 +90,10 @@ header("Content-Security-Policy:frame-ancestors 'none'; default-src 'self';style
 
 	<section class="home-slider owl-carousel" id="inicio">
 
-		<div class="slider-item" style="background-image:url(images/fotos_portada2.jpeg);"
-			data-stellar-background-ratio="0.3">
+		<div class="slider-item" id="item1" data-stellar-background-ratio="0.3">
 			<div class="overlay" style="opacity: 0.6;"></div>
 			<div class="container">
-				<div class="row no-gutters slider-text align-items-center justify-content-center"
-					data-scrollax-parent="false">
+				<div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="false">
 					<div class="col-md-8 text-center ftco-animate">
 						<h1 class="h1-responsive mb-4">Centro de Apoyo a la Maternidad y Alimentación Infantil</h1>
 						<!--<p><a href="#" class="btn btn-secondary px-4 py-3 mt-3">Read More</a></p>-->
@@ -101,12 +102,10 @@ header("Content-Security-Policy:frame-ancestors 'none'; default-src 'self';style
 			</div>
 		</div>
 
-		<div class="slider-item" style="background-image:url(images/fotos_portada1.jpeg);"
-			data-stellar-background-ratio="0.3">
+		<div class="slider-item" id="item2" data-stellar-background-ratio="0.3">
 			<div class="overlay" style="opacity: 0.6;"></div>
 			<div class="container">
-				<div class="row no-gutters slider-text align-items-center justify-content-center"
-					data-scrollax-parent="false">
+				<div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="false">
 					<div class="col-md-8 text-center ftco-animate">
 						<h1 class="h1-responsive mb-4">Centro Amaï - La Serena</h1>
 						<!--<p><a href="#" class="btn btn-secondary px-4 py-3 mt-3">Read More</a></p>-->
@@ -115,12 +114,10 @@ header("Content-Security-Policy:frame-ancestors 'none'; default-src 'self';style
 			</div>
 		</div>
 
-		<div class="slider-item" style="background-image:url(images/fotos_portada3.jpeg);"
-			data-stellar-background-ratio="0.3">
+		<div class="slider-item" id="item3" data-stellar-background-ratio="0.3">
 			<div class="overlay" style="opacity: 0.6;"></div>
 			<div class="container">
-				<div class="row no-gutters slider-text align-items-center justify-content-center"
-					data-scrollax-parent="false">
+				<div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="false">
 					<div class="col-md-8 text-center ftco-animate">
 						<h1 class="h1-responsive mb-4">Apoyo a la Maternidad y Alimentación Infantil</h1>
 						<!--<p><a href="#" class="btn btn-secondary px-4 py-3 mt-3">Read More</a></p>-->
@@ -199,8 +196,7 @@ header("Content-Security-Policy:frame-ancestors 'none'; default-src 'self';style
 					<div class="row mt-5">
 						<div class="col-lg-6">
 							<div class="services-2 d-flex">
-								<div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span
-										class="flaticon-medal"></span></div>
+								<div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="flaticon-medal"></span></div>
 								<div class="text">
 									<h3>Pediatría</h3>
 									<ul>
@@ -215,8 +211,7 @@ header("Content-Security-Policy:frame-ancestors 'none'; default-src 'self';style
 						</div>
 						<div class="col-lg-6">
 							<div class="services-2 d-flex">
-								<div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span
-										class="flaticon-medal"></span></div>
+								<div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="flaticon-medal"></span></div>
 								<div class="text">
 									<h3>Consejería en Lactancia Materna</h3>
 									<ul>
@@ -230,8 +225,7 @@ header("Content-Security-Policy:frame-ancestors 'none'; default-src 'self';style
 						</div>
 						<div class="col-lg-6">
 							<div class="services-2 d-flex">
-								<div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span
-										class="flaticon-medal"></span></div>
+								<div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="flaticon-medal"></span></div>
 								<div class="text">
 									<h3>Nutrición</h3>
 									<ul>
@@ -244,8 +238,7 @@ header("Content-Security-Policy:frame-ancestors 'none'; default-src 'self';style
 						</div>
 						<div class="col-lg-6">
 							<div class="services-2 d-flex">
-								<div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span
-										class="flaticon-medal"></span></div>
+								<div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="flaticon-medal"></span></div>
 								<div class="text">
 									<h3>Psicología</h3>
 									<ul>
@@ -257,8 +250,7 @@ header("Content-Security-Policy:frame-ancestors 'none'; default-src 'self';style
 						</div>
 						<div class="col-lg-6">
 							<div class="services-2 d-flex">
-								<div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span
-										class="flaticon-medal"></span></div>
+								<div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="flaticon-medal"></span></div>
 								<div class="text">
 									<h3>Fonoaudiología</h3>
 									<ul>
@@ -272,8 +264,7 @@ header("Content-Security-Policy:frame-ancestors 'none'; default-src 'self';style
 						</div>
 						<div class="col-lg-6">
 							<div class="services-2 d-flex">
-								<div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span
-										class="flaticon-medal"></span></div>
+								<div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="flaticon-medal"></span></div>
 								<div class="text">
 									<h3>Terapia Ocupacional</h3>
 									<ul>
@@ -287,8 +278,7 @@ header("Content-Security-Policy:frame-ancestors 'none'; default-src 'self';style
 
 						<div class="col-lg-6">
 							<div class="services-2 d-flex">
-								<div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span
-										class="flaticon-medal"></span></div>
+								<div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="flaticon-medal"></span></div>
 								<div class="text">
 									<h3>Matrona</h3>
 									<ul>
@@ -305,8 +295,7 @@ header("Content-Security-Policy:frame-ancestors 'none'; default-src 'self';style
 
 						<div class="col-lg-6">
 							<div class="services-2 d-flex">
-								<div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span
-										class="flaticon-medal"></span></div>
+								<div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="flaticon-medal"></span></div>
 								<div class="text">
 									<h3>Medicina General</h3>
 									<ul>
@@ -346,47 +335,39 @@ header("Content-Security-Policy:frame-ancestors 'none'; default-src 'self';style
 		<div class="container-wrap">
 			<div class="row no-gutters">
 				<div class="col-md-3 ftco-animate">
-					<a href="images/fotos_amai.jpeg" class="gallery image-popup img d-flex align-items-center"
-						style="background-image: url(images/fotos_amai.jpeg);">
+					<a href="images/fotos_amai.jpeg" class="gallery image-popup img d-flex align-items-center" id="foto1">
 					</a>
 				</div>
 
 				<div class="col-md-3 ftco-animate">
-					<a href="images/fotos_portada1.jpeg" class="gallery image-popup img d-flex align-items-center"
-						style="background-image: url(images/fotos_portada1.jpeg);">
+					<a href="images/fotos_portada1.jpeg" class="gallery image-popup img d-flex align-items-center" id="foto2">
 					</a>
 				</div>
 				<div class="col-md-3 ftco-animate">
-					<a href="images/amai_logo.jpg" class="gallery image-popup img d-flex align-items-center"
-						style="background-image: url(images/amai_logo.jpg);">
+					<a href="images/amai_logo.jpg" class="gallery image-popup img d-flex align-items-center" id="foto3">
 					</a>
 				</div>
 
 
 				<div class="col-md-3 ftco-animate">
-					<a href="images/fotos_amai3.jpeg" class="gallery image-popup img d-flex align-items-center"
-						style="background-image: url(images/fotos_amai3.jpeg);">
+					<a href="images/fotos_amai3.jpeg" class="gallery image-popup img d-flex align-items-center" id="foto4">
 					</a>
 				</div>
 				<div class="col-md-3 ftco-animate">
-					<a href="images/fotos_portada3.jpeg" class="gallery image-popup img d-flex align-items-center"
-						style="background-image: url(images/fotos_portada3.jpeg);">
+					<a href="images/fotos_portada3.jpeg" class="gallery image-popup img d-flex align-items-center" id="foto5">
 					</a>
 				</div>
 				<div class="col-md-3 ftco-animate">
-					<a href="images/fotos_amai4.jpeg" class="gallery image-popup img d-flex align-items-center"
-						style="background-image: url(images/fotos_amai4.jpeg);">
+					<a href="images/fotos_amai4.jpeg" class="gallery image-popup img d-flex align-items-center" id="foto6">
 					</a>
 				</div>
 				<div class="col-md-3 ftco-animate">
-					<a href="images/fotos_portada2.jpeg" class="gallery image-popup img d-flex align-items-center"
-						style="background-image: url(images/fotos_portada2.jpeg);">
+					<a href="images/fotos_portada2.jpeg" class="gallery image-popup img d-flex align-items-center" id="foto7">
 					</a>
 				</div>
 
 				<div class="col-md-3 ftco-animate">
-					<a href="images/fotos_amai1.jpeg" class="gallery image-popup img d-flex align-items-center"
-						style="background-image: url(images/fotos_amai1.jpeg);">
+					<a href="images/fotos_amai1.jpeg" class="gallery image-popup img d-flex align-items-center" id="foto8">
 					</a>
 				</div>
 
@@ -408,7 +389,7 @@ header("Content-Security-Policy:frame-ancestors 'none'; default-src 'self';style
 				<div class="col-md-6 col-lg-3 ftco-animate">
 					<div class="staff">
 						<div class="img-wrap d-flex align-items-stretch">
-							<div class="img align-self-stretch" style="background-image: url(images/mauro_rivera.jpg);">
+							<div class="img align-self-stretch" id="item1">
 							</div>
 						</div>
 						<div class="text pt-3 text-center">
@@ -430,8 +411,7 @@ header("Content-Security-Policy:frame-ancestors 'none'; default-src 'self';style
 				<div class="col-md-6 col-lg-3 ftco-animate">
 					<div class="staff">
 						<div class="img-wrap d-flex align-items-stretch">
-							<div class="img align-self-stretch"
-								style="background-image: url(images/carmina_nicolai.jpg);">
+							<div class="img align-self-stretch" id="item2">
 							</div>
 						</div>
 						<div class="text pt-3 text-center">
@@ -454,7 +434,7 @@ header("Content-Security-Policy:frame-ancestors 'none'; default-src 'self';style
 				<div class="col-md-6 col-lg-3 ftco-animate">
 					<div class="staff">
 						<div class="img-wrap d-flex align-items-stretch">
-							<div class="img align-self-stretch" style="background-image: url(images/jose_zuniga.jpg);">
+							<div class="img align-self-stretch" id="item3">
 							</div>
 						</div>
 						<div class="text pt-3 text-center">
@@ -476,7 +456,7 @@ header("Content-Security-Policy:frame-ancestors 'none'; default-src 'self';style
 				<div class="col-md-6 col-lg-3 ftco-animate">
 					<div class="staff">
 						<div class="img-wrap d-flex align-items-stretch">
-							<div class="img align-self-stretch" style="background-image: url(images/daniel_oliva.jpg);">
+							<div class="img align-self-stretch" id="item4">
 							</div>
 						</div>
 						<div class="text pt-3 text-center">
@@ -500,7 +480,7 @@ header("Content-Security-Policy:frame-ancestors 'none'; default-src 'self';style
 				<div class="col-md-6 col-lg-3 ftco-animate">
 					<div class="staff">
 						<div class="img-wrap d-flex align-items-stretch">
-							<div class="img align-self-stretch" style="background-image: url(images/pia_espejo.jpg);">
+							<div class="img align-self-stretch" id="item5">
 							</div>
 						</div>
 						<div class="text pt-3 text-center">
@@ -524,8 +504,7 @@ header("Content-Security-Policy:frame-ancestors 'none'; default-src 'self';style
 				<div class="col-md-6 col-lg-3 ftco-animate">
 					<div class="staff">
 						<div class="img-wrap d-flex align-items-stretch">
-							<div class="img align-self-stretch"
-								style="background-image: url(images/rocio_rodriguez.jpg);">
+							<div class="img align-self-stretch" id="item6">
 							</div>
 						</div>
 						<div class="text pt-3 text-center">
@@ -547,8 +526,7 @@ header("Content-Security-Policy:frame-ancestors 'none'; default-src 'self';style
 				<div class="col-md-6 col-lg-3 ftco-animate">
 					<div class="staff">
 						<div class="img-wrap d-flex align-items-stretch">
-							<div class="img align-self-stretch"
-								style="background-image: url(images/claudia_tapia.jpg);">
+							<div class="img align-self-stretch" id="item7">
 							</div>
 						</div>
 						<div class="text pt-3 text-center">
@@ -570,7 +548,7 @@ header("Content-Security-Policy:frame-ancestors 'none'; default-src 'self';style
 				<div class="col-md-6 col-lg-3 ftco-animate">
 					<div class="staff">
 						<div class="img-wrap d-flex align-items-stretch">
-							<div class="img align-self-stretch" style="background-image: url(images/karla_lopez.jpg);">
+							<div class="img align-self-stretch" id="item8">
 							</div>
 						</div>
 						<div class="text pt-3 text-center">
@@ -594,8 +572,7 @@ header("Content-Security-Policy:frame-ancestors 'none'; default-src 'self';style
 	</section>
 
 	<!-- MISION & VISION-->
-	<section class="ftco-section ftco-counter img" id="section-counter"
-		style="background-image: url(images/foto_mision_vision.jpg);" data-stellar-background-ratio="0.5">
+	<section class="ftco-section ftco-counter img" id="section-counter" data-stellar-background-ratio="0.5">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row mb-5 pb-2">
@@ -812,18 +789,14 @@ header("Content-Security-Policy:frame-ancestors 'none'; default-src 'self';style
 							<hr class="hr-light" style="max-width: 25%;margin: 0;">
 						</div>
 						<ul class="list-unstyled">
-							<li><a href="index.php#inicio"><span
-										class="ion-ios-arrow-round-forward mr-2"></span>Inicio</a>
+							<li><a href="index.php#inicio"><span class="ion-ios-arrow-round-forward mr-2"></span>Inicio</a>
 							</li>
-							<li><a href="index.php#servicios"><span
-										class="ion-ios-arrow-round-forward mr-2"></span>Servicios</a>
+							<li><a href="index.php#servicios"><span class="ion-ios-arrow-round-forward mr-2"></span>Servicios</a>
 							</li>
 							<li>
-								<a href="index.php#especialistas"><span
-										class="ion-ios-arrow-round-forward mr-2"></span>Especialistas</a>
+								<a href="index.php#especialistas"><span class="ion-ios-arrow-round-forward mr-2"></span>Especialistas</a>
 							</li>
-							<li><a href="index.php#contacto"><span
-										class="ion-ios-arrow-round-forward mr-2"></span>Contacto</a>
+							<li><a href="index.php#contacto"><span class="ion-ios-arrow-round-forward mr-2"></span>Contacto</a>
 							</li>
 
 						</ul>
@@ -837,10 +810,8 @@ header("Content-Security-Policy:frame-ancestors 'none'; default-src 'self';style
 						</div>
 						<div>
 							<ul class="ftco-footer-social list-unstyled float-md-left float-lft">
-								<li class="ftco-animate"><a href="https://www.facebook.com/centroamai/"
-										target="_blank"><span class="icon-facebook"></span></a></li>
-								<li class="ftco-animate"><a href="https://www.instagram.com/centroamai/"
-										target="_blank"><span class="icon-instagram"></span></a></li>
+								<li class="ftco-animate"><a href="https://www.facebook.com/centroamai/" target="_blank"><span class="icon-facebook"></span></a></li>
+								<li class="ftco-animate"><a href="https://www.instagram.com/centroamai/" target="_blank"><span class="icon-instagram"></span></a></li>
 							</ul>
 						</div>
 
@@ -849,18 +820,17 @@ header("Content-Security-Policy:frame-ancestors 'none'; default-src 'self';style
 			</div>
 			<hr class="mb-5">
 			<div class="row mb-5 d-flex justify-content-center">
-				<iframe
-					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3458.3040638983107!2d-71.25810298535568!3d-29.91314733214162!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9691ca693ea13f07%3A0x6811de2d25a2b75b!2sLas%20Rojas%20Pte%20236%2C%20La%20Serena%2C%20Coquimbo!5e0!3m2!1ses-419!2scl!4v1579649289100!5m2!1ses-419!2scl"
-					width="1200" height="400" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3458.3040638983107!2d-71.25810298535568!3d-29.91314733214162!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9691ca693ea13f07%3A0x6811de2d25a2b75b!2sLas%20Rojas%20Pte%20236%2C%20La%20Serena%2C%20Coquimbo!5e0!3m2!1ses-419!2scl!4v1579649289100!5m2!1ses-419!2scl" width="1200" height="400" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 			</div>
 		</div>
 		<div class="text-center pt-3 ftco-footer-copyright">
 			<p class="mb-0 px-2">
 				<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 				Copyright &copy;
-				<script>document.write(new Date().getFullYear());</script> All rights reserved | This template
-				is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com"
-					target="_blank">Colorlib</a>
+				<script>
+					document.write(new Date().getFullYear());
+				</script> All rights reserved | This template
+				is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
 				<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 			</p>
 
@@ -879,8 +849,7 @@ header("Content-Security-Policy:frame-ancestors 'none'; default-src 'self';style
 	<!-- loader -->
 	<div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
 			<circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
-			<circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
-				stroke="#F96D00" /></svg></div>
+			<circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00" /></svg></div>
 
 
 	<!-- SCRIPTS -->
@@ -899,10 +868,19 @@ header("Content-Security-Policy:frame-ancestors 'none'; default-src 'self';style
 	<script src="js/aos.js"></script>
 	<script src="js/jquery.animateNumber.min.js"></script>
 	<script src="js/scrollax.min.js"></script>
-	<script
-		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
 	<script src="js/google-map.js"></script>
 	<script src="js/main.js"></script>
+	<script src="js/modernizr-custom.js"></script>
+	<script>
+		Modernizr.on('webp', function(result) {
+			if (result) {
+				// supported
+			} else {
+				// not-supported
+			}
+		});
+	</script>
 
 </body>
 
