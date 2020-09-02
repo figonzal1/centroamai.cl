@@ -143,11 +143,11 @@
 }
 
 .no-webp .img#item7 {
-    background-image: url(../images/claudia_tapia.jpg);
+    background-image: url(../images/paulette_toha.jepg);
 }
 
 .webp .img#item7 {
-    background-image: url(../images/claudia_tapia.webp);
+    background-image: url(../images/paulette_toha.webp);
 }
 
 .no-webp .img#item8 {
@@ -156,6 +156,22 @@
 
 .webp .img#item8 {
     background-image: url(../images/karla_lopez.webp);
+}
+
+.no-webp .img#item9 {
+    background-image: url(../images/claudia_salas.jpeg);
+}
+
+.webp .img#item9 {
+    background-image: url(../images/claudia_salas.webp);
+}
+
+.no-webp .img#item10 {
+    background-image: url(../images/scarlett_orellana.jpeg);
+}
+
+.webp .img#item10 {
+    background-image: url(../images/scarlett_orellana.webp);
 }
 
 
@@ -167,4 +183,12 @@
 
 .webp .ftco-section#section-counter {
     background-image: url(../images/foto_mision_vision.webp);
+}
+
+
+/*HOvER*/
+
+.staff:hover .text h3,
+.staff:focus .text h3 {
+    color: #59c2a6;
 }
