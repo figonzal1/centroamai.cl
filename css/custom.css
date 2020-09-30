@@ -44,11 +44,11 @@
 }
 
 .no-webp .gallery#foto3 {
-    background-image: url(../images/amai_logo.jpg);
+    background-image: url(../images/amai_logo_simplificado.jpg);
 }
 
 .webp .gallery#foto3 {
-    background-image: url(../images/amai_logo.webp);
+    background-image: url(../images/amai_logo_simplificado.webp);
 }
 
 .no-webp .gallery#foto4 {

@@ -66,8 +66,8 @@ header("Content-Security-Policy:frame-ancestors 'none'; default-src 'self';img-s
 
 			<a class="navbar-brand" href="index.php">
 				<picture>
-					<source srcset="images/amai_logo_sf.webp" type="image/webp">
-					<source srcset="images/amai_logo.png" type="image/png">
+					<source srcset="images/amai_logo_navbar.webp" type="image/webp">
+					<source srcset="images/amai_logo_navbar.png" type="image/png">
 					<img src="amai_logo.png" height="60">
 				</picture>
 			</a>
