@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/figonzal1/centroamai.cl/blob/master/images/amai_logo.png?raw=true" style="display: block;margin-left: auto;margin-right: auto;width: 50%;">
+  <img src="https://github.com/figonzal1/centroamai.cl/blob/master/images/amai_logo.jpg?raw=true" style="display: block;margin-left: auto;margin-right: auto;width: 50%" height="400px">
 </p>
 
 <h1 align="center"><a href="https://centroamai.cl">Centro AMAI</a></h1>

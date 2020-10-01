@@ -3,7 +3,7 @@ header('X-Content-Type-Options: nosniff');
 header('X-Frame-Options: DENY');
 header("X-XSS-Protection: 1; mode=block");
 header("Referrer-Policy: no-referrer");
-header("Feature-Policy: camera 'none'; fullscreen 'none'; geolocation 'none'; microphone 'none';");
+header("Permissions-Policy: fullscreen=(), geolocation=(), camera=(), microphone=()");
 header("Content-Security-Policy:frame-ancestors 'none'; default-src 'self';img-src 'self' data:;style-src 'self' 'unsafe-inline';script-src 'self' 'sha256-ajGjo5eD0JzFPdnpuutKT6Sb5gLu+Q9ru594rwJogGQ=' 'sha256-vvt4KWwuNr51XfE5m+hzeNEGhiOfZzG97ccfqGsPwvE=' 'sha256-Mrs88g1byVkLHsPw+1FUhrKsHB9Qh7nyDJ7afahdX9s=' 'sha256-eGG8qgSAZWp6J3WOiPYNCznSvv4IDhyKZs5w6fwksLs=' https://maps.googleapis.com ;frame-src https://www.google.com ");
 ?>
 <!DOCTYPE html>
