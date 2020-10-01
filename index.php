@@ -385,7 +385,7 @@ header("Content-Security-Policy:frame-ancestors 'none'; default-src 'self';img-s
 						necessary regelialia. It is a paradisematic country</p>-->
 				</div>
 			</div>
-			<div class="row">
+			<div class="row mb-5">
 				<div class="col-md-6 col-lg-3 ftco-animate">
 					<div class="staff">
 						<div class="img-wrap d-flex align-items-stretch">
@@ -598,6 +598,94 @@ header("Content-Security-Policy:frame-ancestors 'none'; default-src 'self';img-s
 						<div class="text pt-3 text-center">
 							<h3>Scarlett Orellana</h3>
 							<span class="position">Médico Infanto Juvenil</span>
+							<!--<div class="faded">
+								<p>I am an ambitious workaholic, but apart from that, pretty simple person.</p>
+								<ul class="ftco-social text-center">
+									<li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+									<li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+									<li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li>
+									<li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+								</ul>
+							</div>-->
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-6 col-lg-3 ftco-animate">
+					<div class="staff">
+						<div class="img-wrap d-flex align-items-stretch">
+							<div class="img align-self-stretch" id="item11">
+							</div>
+						</div>
+						<div class="text pt-3 text-center">
+							<h3>Francisca Gutiérrez</h3>
+							<span class="position">Terapeuta Ocupacional</span>
+							<!--<div class="faded">
+								<p>I am an ambitious workaholic, but apart from that, pretty simple person.</p>
+								<ul class="ftco-social text-center">
+									<li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+									<li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+									<li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li>
+									<li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+								</ul>
+							</div>-->
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-6 col-lg-3 ftco-animate">
+					<div class="staff">
+						<div class="img-wrap d-flex align-items-stretch">
+							<div class="img align-self-stretch" id="item12">
+							</div>
+						</div>
+						<div class="text pt-3 text-center">
+							<h3>Stefania Rigotti</h3>
+							<span class="position">Nutricionista Infantil</span>
+							<!--<div class="faded">
+								<p>I am an ambitious workaholic, but apart from that, pretty simple person.</p>
+								<ul class="ftco-social text-center">
+									<li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+									<li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+									<li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li>
+									<li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+								</ul>
+							</div>-->
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-6 col-lg-3 ftco-animate">
+					<div class="staff">
+						<div class="img-wrap d-flex align-items-stretch">
+							<div class="img align-self-stretch" id="item13">
+							</div>
+						</div>
+						<div class="text pt-3 text-center">
+							<h3>Francisca Muñoz</h3>
+							<span class="position">Nutricionista Adulto</span>
+							<!--<div class="faded">
+								<p>I am an ambitious workaholic, but apart from that, pretty simple person.</p>
+								<ul class="ftco-social text-center">
+									<li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+									<li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+									<li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li>
+									<li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+								</ul>
+							</div>-->
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-6 col-lg-3 ftco-animate">
+					<div class="staff">
+						<div class="img-wrap d-flex align-items-stretch">
+							<div class="img align-self-stretch" id="item14">
+							</div>
+						</div>
+						<div class="text pt-3 text-center">
+							<h3>Mª Valentina Olivier</h3>
+							<span class="position">Psicóloga Infantil</span>
 							<!--<div class="faded">
 								<p>I am an ambitious workaholic, but apart from that, pretty simple person.</p>
 								<ul class="ftco-social text-center">
