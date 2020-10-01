@@ -206,6 +206,14 @@
     background-image: url(../images/m_valentina_olivier.webp);
 }
 
+.no-webp .img#item15 {
+    background-image: url(../images/jessica_rivera.jpeg);
+}
+
+.webp .img#item15 {
+    background-image: url(../images/jessica_rivera.webp);
+}
+
 
 /*MISION Y VISION*/
 

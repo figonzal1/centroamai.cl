@@ -699,6 +699,28 @@ header("Content-Security-Policy:frame-ancestors 'none'; default-src 'self';img-s
 					</div>
 				</div>
 
+				<div class="col-md-6 col-lg-3 ftco-animate">
+					<div class="staff">
+						<div class="img-wrap d-flex align-items-stretch">
+							<div class="img align-self-stretch" id="item15">
+							</div>
+						</div>
+						<div class="text pt-3 text-center">
+							<h3>Jessica Rivera</h3>
+							<span class="position">Recepcionista</span>
+							<!--<div class="faded">
+								<p>I am an ambitious workaholic, but apart from that, pretty simple person.</p>
+								<ul class="ftco-social text-center">
+									<li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+									<li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+									<li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li>
+									<li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+								</ul>
+							</div>-->
+						</div>
+					</div>
+				</div>
+
 			</div>
 		</div>
 	</section>
