@@ -974,7 +974,7 @@ header("Content-Security-Policy:frame-ancestors 'none'; default-src 'self';img-s
 			</div>
 			<hr class="mb-5">
 			<div class="row mb-5 d-flex justify-content-center">
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3458.3040638983107!2d-71.25810298535568!3d-29.91314733214162!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9691ca693ea13f07%3A0x6811de2d25a2b75b!2sLas%20Rojas%20Pte%20236%2C%20La%20Serena%2C%20Coquimbo!5e0!3m2!1ses-419!2scl!4v1579649289100!5m2!1ses-419!2scl" width="1200" height="400" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1028.1569422444134!2d-71.25612644271442!3d-29.913438628768006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9691cbd655a180cb%3A0xe7db50e14c040b93!2sCentro%20Amai!5e0!3m2!1sen!2scl!4v1609260296618!5m2!1sen!2scl" width="1200" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 			</div>
 		</div>
 		<div class="text-center pt-3 ftco-footer-copyright">
@@ -1022,8 +1022,6 @@ header("Content-Security-Policy:frame-ancestors 'none'; default-src 'self';img-s
 	<script src="js/aos.js"></script>
 	<script src="js/jquery.animateNumber.min.js"></script>
 	<script src="js/scrollax.min.js"></script>
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
-	<script src="js/google-map.js"></script>
 	<script src="js/main.js"></script>
 	<script src="js/modernizr-custom.js"></script>
 	<script>
