@@ -417,42 +417,10 @@ header("Content-Security-Policy:frame-ancestors 'none'; default-src 'self';img-s
 						<div class="text pt-3 text-center">
 							<h3>Carmina Nicolai</h3>
 							<span class="position">Matrona Proparto</span>
-							<!--<span class="position">Respetado</span>-->
-							<!--<span class="position mb-2">Terapeuta Floral</span>-->
-							<!--<div class="faded">
-								<p>I am an ambitious workaholic, but apart from that, pretty simple person.</p>
-								<ul class="ftco-social text-center">
-									<li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-									<li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-									<li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li>
-									<li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-								</ul>
-							</div>-->
 						</div>
 					</div>
 				</div>
-				<div class="col-md-6 col-lg-3 ftco-animate">
-					<div class="staff">
-						<div class="img-wrap d-flex align-items-stretch">
-							<div class="img align-self-stretch" id="item3">
-							</div>
-						</div>
-						<div class="text pt-3 text-center">
-							<h3>José Luis Zúniga</h3>
-							<span class="position">Pediatra Prolactancia</span>
-							<!--<span class="position mb-2">Máster en Nutrición Pediátrica</span>-->
-							<!--<div class="faded">
-								<p>I am an ambitious workaholic, but apart from that, pretty simple person.</p>
-								<ul class="ftco-social text-center">
-									<li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-									<li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-									<li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li>
-									<li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-								</ul>
-							</div>-->
-						</div>
-					</div>
-				</div>
+
 				<div class="col-md-6 col-lg-3 ftco-animate">
 					<div class="staff">
 						<div class="img-wrap d-flex align-items-stretch">
@@ -462,17 +430,6 @@ header("Content-Security-Policy:frame-ancestors 'none'; default-src 'self';img-s
 						<div class="text pt-3 text-center">
 							<h3>Daniel Oliva</h3>
 							<span class="position">Nutricionista</span>
-							<!--<span class="position mb-2">Consejero en Lactancia</span>-->
-							<!--<span class="position mb-2">Dip. Nutrición Pediátrica</span>-->
-							<!--<div class="faded">
-								<p>I am an ambitious workaholic, but apart from that, pretty simple person.</p>
-								<ul class="ftco-social text-center">
-									<li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-									<li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-									<li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li>
-									<li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-								</ul>
-							</div>-->
 						</div>
 					</div>
 				</div>
@@ -486,39 +443,6 @@ header("Content-Security-Policy:frame-ancestors 'none'; default-src 'self';img-s
 						<div class="text pt-3 text-center">
 							<h3>Pía Espejo</h3>
 							<span class="position">Psicóloga</span>
-							<!--<span class="position mb-2">Psicóloga Infantil</span>-->
-							<!--<span class="position mb-2">Experiencia en TEA y Habilidades Sociales</span>-->
-							<!--<div class="faded">
-								<p>I am an ambitious workaholic, but apart from that, pretty simple person.</p>
-								<ul class="ftco-social text-center">
-									<li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-									<li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-									<li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li>
-									<li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-								</ul>
-							</div>-->
-						</div>
-					</div>
-				</div>
-
-				<div class="col-md-6 col-lg-3 ftco-animate">
-					<div class="staff">
-						<div class="img-wrap d-flex align-items-stretch">
-							<div class="img align-self-stretch" id="item6">
-							</div>
-						</div>
-						<div class="text pt-3 text-center">
-							<h3>Rocío Rodríguez</h3>
-							<span class="position">Pediatra</span>
-							<!--<div class="faded">
-								<p>I am an ambitious workaholic, but apart from that, pretty simple person.</p>
-								<ul class="ftco-social text-center">
-									<li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-									<li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-									<li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li>
-									<li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-								</ul>
-							</div>-->
 						</div>
 					</div>
 				</div>
@@ -532,15 +456,6 @@ header("Content-Security-Policy:frame-ancestors 'none'; default-src 'self';img-s
 						<div class="text pt-3 text-center">
 							<h3>Paulette Tohá</h3>
 							<span class="position">Psicóloga Infantil</span>
-							<!--<div class="faded">
-								<p>I am an ambitious workaholic, but apart from that, pretty simple person.</p>
-								<ul class="ftco-social text-center">
-									<li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-									<li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-									<li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li>
-									<li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-								</ul>
-							</div>-->
 						</div>
 					</div>
 				</div>
@@ -554,15 +469,6 @@ header("Content-Security-Policy:frame-ancestors 'none'; default-src 'self';img-s
 						<div class="text pt-3 text-center">
 							<h3>Karla López</h3>
 							<span class="position">Fonoaudióloga</span>
-							<!--<div class="faded">
-								<p>I am an ambitious workaholic, but apart from that, pretty simple person.</p>
-								<ul class="ftco-social text-center">
-									<li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-									<li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-									<li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li>
-									<li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-								</ul>
-							</div>-->
 						</div>
 					</div>
 				</div>
@@ -576,15 +482,6 @@ header("Content-Security-Policy:frame-ancestors 'none'; default-src 'self';img-s
 						<div class="text pt-3 text-center">
 							<h3>Claudia Salas</h3>
 							<span class="position">Médico Infanto Juvenil</span>
-							<!--<div class="faded">
-								<p>I am an ambitious workaholic, but apart from that, pretty simple person.</p>
-								<ul class="ftco-social text-center">
-									<li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-									<li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-									<li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li>
-									<li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-								</ul>
-							</div>-->
 						</div>
 					</div>
 				</div>
@@ -598,15 +495,6 @@ header("Content-Security-Policy:frame-ancestors 'none'; default-src 'self';img-s
 						<div class="text pt-3 text-center">
 							<h3>Scarlett Orellana</h3>
 							<span class="position">Médico Infanto Juvenil</span>
-							<!--<div class="faded">
-								<p>I am an ambitious workaholic, but apart from that, pretty simple person.</p>
-								<ul class="ftco-social text-center">
-									<li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-									<li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-									<li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li>
-									<li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-								</ul>
-							</div>-->
 						</div>
 					</div>
 				</div>
@@ -620,15 +508,6 @@ header("Content-Security-Policy:frame-ancestors 'none'; default-src 'self';img-s
 						<div class="text pt-3 text-center">
 							<h3>Francisca Gutiérrez</h3>
 							<span class="position">Terapeuta Ocupacional</span>
-							<!--<div class="faded">
-								<p>I am an ambitious workaholic, but apart from that, pretty simple person.</p>
-								<ul class="ftco-social text-center">
-									<li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-									<li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-									<li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li>
-									<li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-								</ul>
-							</div>-->
 						</div>
 					</div>
 				</div>
@@ -642,15 +521,6 @@ header("Content-Security-Policy:frame-ancestors 'none'; default-src 'self';img-s
 						<div class="text pt-3 text-center">
 							<h3>Stefania Rigotti</h3>
 							<span class="position">Nutricionista Infantil</span>
-							<!--<div class="faded">
-								<p>I am an ambitious workaholic, but apart from that, pretty simple person.</p>
-								<ul class="ftco-social text-center">
-									<li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-									<li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-									<li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li>
-									<li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-								</ul>
-							</div>-->
 						</div>
 					</div>
 				</div>
@@ -664,15 +534,6 @@ header("Content-Security-Policy:frame-ancestors 'none'; default-src 'self';img-s
 						<div class="text pt-3 text-center">
 							<h3>Francisca Muñoz</h3>
 							<span class="position">Nutricionista Adulto</span>
-							<!--<div class="faded">
-								<p>I am an ambitious workaholic, but apart from that, pretty simple person.</p>
-								<ul class="ftco-social text-center">
-									<li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-									<li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-									<li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li>
-									<li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-								</ul>
-							</div>-->
 						</div>
 					</div>
 				</div>
@@ -686,15 +547,6 @@ header("Content-Security-Policy:frame-ancestors 'none'; default-src 'self';img-s
 						<div class="text pt-3 text-center">
 							<h3>Mª Valentina Olivier</h3>
 							<span class="position">Psicóloga Infantil</span>
-							<!--<div class="faded">
-								<p>I am an ambitious workaholic, but apart from that, pretty simple person.</p>
-								<ul class="ftco-social text-center">
-									<li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-									<li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-									<li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li>
-									<li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-								</ul>
-							</div>-->
 						</div>
 					</div>
 				</div>
@@ -706,20 +558,39 @@ header("Content-Security-Policy:frame-ancestors 'none'; default-src 'self';img-s
 							</div>
 						</div>
 						<div class="text pt-3 text-center">
-							<h3>Jessica Rivera</h3>
-							<span class="position">Recepcionista</span>
-							<!--<div class="faded">
-								<p>I am an ambitious workaholic, but apart from that, pretty simple person.</p>
-								<ul class="ftco-social text-center">
-									<li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-									<li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-									<li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li>
-									<li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-								</ul>
-							</div>-->
+							<h3>Charnelle Galleguillos</h3>
+							<span class="position">Fonoaudióloga</span>
 						</div>
 					</div>
 				</div>
+
+				<div class="col-md-6 col-lg-3 ftco-animate">
+					<div class="staff">
+						<div class="img-wrap d-flex align-items-stretch">
+							<div class="img align-self-stretch" id="item16">
+							</div>
+						</div>
+						<div class="text pt-3 text-center">
+							<h3>Constanza Retamal</h3>
+							<span class="position">Terapeuta Ocupacional</span>
+						</div>
+					</div>
+				</div>
+
+				
+				<div class="col-md-6 col-lg-3 ftco-animate">
+					<div class="staff">
+						<div class="img-wrap d-flex align-items-stretch">
+							<div class="img align-self-stretch" id="item17">
+							</div>
+						</div>
+						<div class="text pt-3 text-center">
+							<h3>Mariflor Martínezl</h3>
+							<span class="position">Endocrinóloga Infantil</span>
+						</div>
+					</div>
+				</div>
+
 
 			</div>
 		</div>
