@@ -214,6 +214,15 @@
     background-image: url(../images/mariflor_martinez.webp);
 }
 
+.no-webp .img#item18 {
+    background-image: url(../images/gabriela_araya.jpg);
+}
+
+.webp .img#item18 {
+    background-image: url(../images/gabriela_araya.webp);
+}
+
+
 
 
 /*MISION Y VISION*/
