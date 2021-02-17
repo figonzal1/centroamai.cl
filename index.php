@@ -78,10 +78,10 @@ header("Content-Security-Policy:frame-ancestors 'none'; default-src 'self';img-s
 
 			<div class="collapse navbar-collapse" id="nav">
 				<ul class="navbar-nav ml-auto">
-					<li class="nav-item"><a href="index.php#inicio" class="nav-link pl-0">Inicio</a></li>
-					<li class="nav-item"><a href="index.php#servicios" class="nav-link">Servicios</a></li>
-					<li class="nav-item"><a href="index.php#especialistas" class="nav-link">Especialistas</a></li>
-					<li class="nav-item"><a href="index.php#contacto" class="nav-link">Contacto</a></li>
+					<li class="nav-item"><a href="https://centroamai.cl/#inicio" class="nav-link pl-0">Inicio</a></li>
+					<li class="nav-item"><a href="https://centroamai.cl/#servicios" class="nav-link">Servicios</a></li>
+					<li class="nav-item"><a href="https://centroamai.cl/#especialistas" class="nav-link">Especialistas</a></li>
+					<li class="nav-item"><a href="https://centroamai.cl/#contacto" class="nav-link">Contacto</a></li>
 					</li>
 				</ul>
 			</div>
@@ -336,39 +336,38 @@ header("Content-Security-Policy:frame-ancestors 'none'; default-src 'self';img-s
 		<div class="container-wrap">
 			<div class="row no-gutters">
 				<div class="col-md-3 ftco-animate">
-					<a href="images/fotos_amai.jpeg" class="gallery image-popup img d-flex align-items-center" id="foto1">
+					<a href="https://centroamai.cl/images/fotos_amai.jpeg" class="gallery image-popup img d-flex align-items-center" id="foto1">
 					</a>
 				</div>
 
 				<div class="col-md-3 ftco-animate">
-					<a href="images/fotos_portada1.jpeg" class="gallery image-popup img d-flex align-items-center" id="foto2">
+					<a href="https://centroamai.cl/images/fotos_portada1.jpeg" class="gallery image-popup img d-flex align-items-center" id="foto2">
 					</a>
 				</div>
 				<div class="col-md-3 ftco-animate">
-					<a href="images/amai_logo.jpg" class="gallery image-popup img d-flex align-items-center" id="foto3">
-					</a>
-				</div>
-
-
-				<div class="col-md-3 ftco-animate">
-					<a href="images/fotos_amai3.jpeg" class="gallery image-popup img d-flex align-items-center" id="foto4">
-					</a>
-				</div>
-				<div class="col-md-3 ftco-animate">
-					<a href="images/fotos_portada3.jpeg" class="gallery image-popup img d-flex align-items-center" id="foto5">
-					</a>
-				</div>
-				<div class="col-md-3 ftco-animate">
-					<a href="images/fotos_amai4.jpeg" class="gallery image-popup img d-flex align-items-center" id="foto6">
-					</a>
-				</div>
-				<div class="col-md-3 ftco-animate">
-					<a href="images/fotos_portada2.jpeg" class="gallery image-popup img d-flex align-items-center" id="foto7">
+					<a href="https://centroamai.cl/images/amai_logo.jpg" class="gallery image-popup img d-flex align-items-center" id="foto3">
 					</a>
 				</div>
 
 				<div class="col-md-3 ftco-animate">
-					<a href="images/fotos_amai1.jpeg" class="gallery image-popup img d-flex align-items-center" id="foto8">
+					<a href="https://centroamai.cl/images/fotos_amai3.jpeg" class="gallery image-popup img d-flex align-items-center" id="foto4">
+					</a>
+				</div>
+				<div class="col-md-3 ftco-animate">
+					<a href="https://centroamai.cl/images/fotos_portada3.jpeg" class="gallery image-popup img d-flex align-items-center" id="foto5">
+					</a>
+				</div>
+				<div class="col-md-3 ftco-animate">
+					<a href="https://centroamai.cl/images/fotos_amai4.jpeg" class="gallery image-popup img d-flex align-items-center" id="foto6">
+					</a>
+				</div>
+				<div class="col-md-3 ftco-animate">
+					<a href="https://centroamai.cl/images/fotos_portada2.jpeg" class="gallery image-popup img d-flex align-items-center" id="foto7">
+					</a>
+				</div>
+
+				<div class="col-md-3 ftco-animate">
+					<a href="https://centroamai.cl/images/fotos_amai1.jpeg" class="gallery image-popup img d-flex align-items-center" id="foto8">
 					</a>
 				</div>
 
@@ -827,14 +826,14 @@ header("Content-Security-Policy:frame-ancestors 'none'; default-src 'self';img-s
 							<hr class="hr-light" style="max-width: 25%;margin: 0;">
 						</div>
 						<ul class="list-unstyled">
-							<li><a href="index.php#inicio"><span class="ion-ios-arrow-round-forward mr-2"></span>Inicio</a>
+							<li><a href="https://centroamai.cl/#inicio"><span class="ion-ios-arrow-round-forward mr-2"></span>Inicio</a>
 							</li>
-							<li><a href="index.php#servicios"><span class="ion-ios-arrow-round-forward mr-2"></span>Servicios</a>
+							<li><a href="https://centroamai.cl/#servicios"><span class="ion-ios-arrow-round-forward mr-2"></span>Servicios</a>
 							</li>
 							<li>
-								<a href="index.php#especialistas"><span class="ion-ios-arrow-round-forward mr-2"></span>Especialistas</a>
+								<a href="https://centroamai.cl/#especialistas"><span class="ion-ios-arrow-round-forward mr-2"></span>Especialistas</a>
 							</li>
-							<li><a href="index.php#contacto"><span class="ion-ios-arrow-round-forward mr-2"></span>Contacto</a>
+							<li><a href="https://centroamai.cl/#contacto"><span class="ion-ios-arrow-round-forward mr-2"></span>Contacto</a>
 							</li>
 
 						</ul>
