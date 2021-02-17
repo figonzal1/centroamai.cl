@@ -2,7 +2,7 @@
 header('X-Content-Type-Options: nosniff');
 header('X-Frame-Options: DENY');
 header("X-XSS-Protection: 1; mode=block");
-header("Referrer-Policy: no-referrer");
+header("Referrer-Policy: strict-origin-when-cross-origin");
 header("Permissions-Policy: fullscreen=(), geolocation=(), camera=(), microphone=()");
 header("Content-Security-Policy:frame-ancestors 'none'; default-src 'self';img-src 'self' data:;style-src 'self' 'unsafe-inline';script-src 'self' 'sha256-ajGjo5eD0JzFPdnpuutKT6Sb5gLu+Q9ru594rwJogGQ=' 'sha256-vvt4KWwuNr51XfE5m+hzeNEGhiOfZzG97ccfqGsPwvE=' 'sha256-Mrs88g1byVkLHsPw+1FUhrKsHB9Qh7nyDJ7afahdX9s=' 'sha256-eGG8qgSAZWp6J3WOiPYNCznSvv4IDhyKZs5w6fwksLs=' https://maps.googleapis.com ;frame-src https://www.google.com ");
 ?>
@@ -10,10 +10,11 @@ header("Content-Security-Policy:frame-ancestors 'none'; default-src 'self';img-s
 <html lang="es">
 
 <head>
-	<title>Centro Amaï - La Serena</title>
+	<title>Centro Amaï - Centro de Apoyo a la Maternidad y Alimentación Infantil - La Serena</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta name="description" content="Centro de Apoyo a la Maternidad y Alimentación Infantil. Contamos con profesionales altamente capacitadas en lactancia y alimentación." />
+	<link rel="canonical" href="https://centroamai.cl/" />
 
 	<link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
 	<link rel="stylesheet" href="css/animate.css">
@@ -577,7 +578,7 @@ header("Content-Security-Policy:frame-ancestors 'none'; default-src 'self';img-s
 					</div>
 				</div>
 
-				
+
 				<div class="col-md-6 col-lg-3 ftco-animate">
 					<div class="staff">
 						<div class="img-wrap d-flex align-items-stretch">
@@ -615,17 +616,16 @@ header("Content-Security-Policy:frame-ancestors 'none'; default-src 'self';img-s
 		<div class="container">
 			<div class="row mb-5 pb-2">
 				<div class="col-md-6 text-center heading-section heading-section-black ftco-animate">
-					<h2 class="mb-4" style="color: white;">Nuestra <span>visión</span></h2>
-					<p class="font-weight-normal" style="color: white;">"Ser el primer y mejor centro integral de apoyo
-						a
-						la maternidad y la alimentación infantil de la región de Coquimbo".</p>
+					<h2 class="mt-4" style="color: white;">Nuestra <span>visión</span></h2>
+					<h6 class="font-weight-normal px-3" style="color: white;">"Ser el primer y mejor centro integral de apoyo
+						a la maternidad y la alimentación infantil de la región de Coquimbo".</h6>
 				</div>
 
 				<div class="col-md-6 text-center heading-section heading-section-black ftco-animate">
-					<h2 class="mb-4" style="color: white;">Nuestra <span>misión</span></h2>
-					<p style="color: white;">"Acompañar a las familias en el proceso de
+					<h2 class="mt-4" style="color: white;">Nuestra <span>misión</span></h2>
+					<h6 class="font-weight-normal px-3" style="color: white;">"Acompañar a las familias en el proceso de
 						maternidad, desarrollo infantil, establecimiento de vínculo afectivo seguro y alimentación,
-						siendo la red de apoyo multidisciplinaria de la región".</p>
+						siendo la red de apoyo multidisciplinaria de la región".</h6>
 				</div>
 			</div>
 			<!--
@@ -861,24 +861,23 @@ header("Content-Security-Policy:frame-ancestors 'none'; default-src 'self';img-s
 				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1028.1569422444134!2d-71.25612644271442!3d-29.913438628768006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9691cbd655a180cb%3A0xe7db50e14c040b93!2sCentro%20Amai!5e0!3m2!1sen!2scl!4v1609260296618!5m2!1sen!2scl" width="1200" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 			</div>
 		</div>
-		<div class="text-center pt-3 ftco-footer-copyright">
-			<p class="mb-0 px-2">
+		<div class="text-center pt-4 ftco-footer-copyright">
+			<p class="mb-0  px-2">
 				<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 				Copyright &copy;
 				<script>
 					document.write(new Date().getFullYear());
-				</script> All rights reserved | This template
-				is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+				</script> Centro AMAI
 				<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 			</p>
 
 		</div>
-		<div class="text-center py-3 ftco-footer-copyright">
-			<p class="mb-0 px-2">Modified and adapted by <a href="https://www.figonzal.cl" target="_blank">Felipe
-					González</a></p>
-			<p class="mb-0 px-2">Under the services of
-				<a href="https://www.heroku.com" target="_blank">Heroku</a> &
-				<a href="https://www.cloudflare.com/" target="_blank">CloudFlare</a></p>
+
+		<div class="text-center pb-1 ftco-footer-copyright">
+			<p class="px-2">Esta plantilla está hecha con <i class="icon-heart" aria-hidden="true"></i> por <a href="https://colorlib.com" target="_blank"><b>Colorlib</b></a>
+				y adaptada por <a href="https://figonzal.cl"><b>figonzal.cl</b></a>
+				<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+			</p>
 		</div>
 	</footer>
 
@@ -887,7 +886,8 @@ header("Content-Security-Policy:frame-ancestors 'none'; default-src 'self';img-s
 	<!-- loader -->
 	<div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
 			<circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
-			<circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00" /></svg></div>
+			<circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00" />
+		</svg></div>
 
 
 	<!-- SCRIPTS -->
