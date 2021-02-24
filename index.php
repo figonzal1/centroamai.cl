@@ -10,11 +10,11 @@ header("Content-Security-Policy:frame-ancestors 'none'; default-src 'self';img-s
 <html lang="es">
 
 <head>
-	<title>Centro Amaï - Centro de Apoyo a la Maternidad y Alimentación Infantil - La Serena</title>
+	<title>Centro Amaï - Centro de Apoyo a la Maternidad - La Serena</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta name="description" content="Centro de Apoyo a la Maternidad y Alimentación Infantil. Contamos con profesionales altamente capacitadas en lactancia y alimentación." />
-	<link rel="canonical" href="https://centroamai.cl/" />
+	<link rel="canonical" href="https://www.centroamai.cl/" />
 
 	<link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
 	<link rel="stylesheet" href="css/animate.css">
@@ -78,10 +78,10 @@ header("Content-Security-Policy:frame-ancestors 'none'; default-src 'self';img-s
 
 			<div class="collapse navbar-collapse" id="nav">
 				<ul class="navbar-nav ml-auto">
-					<li class="nav-item"><a href="https://centroamai.cl/#inicio" class="nav-link pl-0">Inicio</a></li>
-					<li class="nav-item"><a href="https://centroamai.cl/#servicios" class="nav-link">Servicios</a></li>
-					<li class="nav-item"><a href="https://centroamai.cl/#especialistas" class="nav-link">Especialistas</a></li>
-					<li class="nav-item"><a href="https://centroamai.cl/#contacto" class="nav-link">Contacto</a></li>
+					<li class="nav-item"><a href="https://www.centroamai.cl/#inicio" class="nav-link pl-0">Inicio</a></li>
+					<li class="nav-item"><a href="https://www.centroamai.cl/#servicios" class="nav-link">Servicios</a></li>
+					<li class="nav-item"><a href="https://www.centroamai.cl/#especialistas" class="nav-link">Especialistas</a></li>
+					<li class="nav-item"><a href="https://www.centroamai.cl/#contacto" class="nav-link">Contacto</a></li>
 					</li>
 				</ul>
 			</div>
@@ -336,38 +336,38 @@ header("Content-Security-Policy:frame-ancestors 'none'; default-src 'self';img-s
 		<div class="container-wrap">
 			<div class="row no-gutters">
 				<div class="col-md-3 ftco-animate">
-					<a href="https://centroamai.cl/images/fotos_amai.jpeg" class="gallery image-popup img d-flex align-items-center" id="foto1">
+					<a href="https://www.centroamai.cl/images/fotos_amai.jpeg" class="gallery image-popup img d-flex align-items-center" id="foto1">
 					</a>
 				</div>
 
 				<div class="col-md-3 ftco-animate">
-					<a href="https://centroamai.cl/images/fotos_portada1.jpeg" class="gallery image-popup img d-flex align-items-center" id="foto2">
+					<a href="https://www.centroamai.cl/images/fotos_portada1.jpeg" class="gallery image-popup img d-flex align-items-center" id="foto2">
 					</a>
 				</div>
 				<div class="col-md-3 ftco-animate">
-					<a href="https://centroamai.cl/images/amai_logo.jpg" class="gallery image-popup img d-flex align-items-center" id="foto3">
-					</a>
-				</div>
-
-				<div class="col-md-3 ftco-animate">
-					<a href="https://centroamai.cl/images/fotos_amai3.jpeg" class="gallery image-popup img d-flex align-items-center" id="foto4">
-					</a>
-				</div>
-				<div class="col-md-3 ftco-animate">
-					<a href="https://centroamai.cl/images/fotos_portada3.jpeg" class="gallery image-popup img d-flex align-items-center" id="foto5">
-					</a>
-				</div>
-				<div class="col-md-3 ftco-animate">
-					<a href="https://centroamai.cl/images/fotos_amai4.jpeg" class="gallery image-popup img d-flex align-items-center" id="foto6">
-					</a>
-				</div>
-				<div class="col-md-3 ftco-animate">
-					<a href="https://centroamai.cl/images/fotos_portada2.jpeg" class="gallery image-popup img d-flex align-items-center" id="foto7">
+					<a href="https://www.centroamai.cl/images/amai_logo.jpg" class="gallery image-popup img d-flex align-items-center" id="foto3">
 					</a>
 				</div>
 
 				<div class="col-md-3 ftco-animate">
-					<a href="https://centroamai.cl/images/fotos_amai1.jpeg" class="gallery image-popup img d-flex align-items-center" id="foto8">
+					<a href="https://www.centroamai.cl/images/fotos_amai3.jpeg" class="gallery image-popup img d-flex align-items-center" id="foto4">
+					</a>
+				</div>
+				<div class="col-md-3 ftco-animate">
+					<a href="https://www.centroamai.cl/images/fotos_portada3.jpeg" class="gallery image-popup img d-flex align-items-center" id="foto5">
+					</a>
+				</div>
+				<div class="col-md-3 ftco-animate">
+					<a href="https://www.centroamai.cl/images/fotos_amai4.jpeg" class="gallery image-popup img d-flex align-items-center" id="foto6">
+					</a>
+				</div>
+				<div class="col-md-3 ftco-animate">
+					<a href="https://www.centroamai.cl/images/fotos_portada2.jpeg" class="gallery image-popup img d-flex align-items-center" id="foto7">
+					</a>
+				</div>
+
+				<div class="col-md-3 ftco-animate">
+					<a href="https://www.centroamai.cl/images/fotos_amai1.jpeg" class="gallery image-popup img d-flex align-items-center" id="foto8">
 					</a>
 				</div>
 
@@ -826,14 +826,14 @@ header("Content-Security-Policy:frame-ancestors 'none'; default-src 'self';img-s
 							<hr class="hr-light" style="max-width: 25%;margin: 0;">
 						</div>
 						<ul class="list-unstyled">
-							<li><a href="https://centroamai.cl/#inicio"><span class="ion-ios-arrow-round-forward mr-2"></span>Inicio</a>
+							<li><a href="https://www.centroamai.cl/#inicio"><span class="ion-ios-arrow-round-forward mr-2"></span>Inicio</a>
 							</li>
-							<li><a href="https://centroamai.cl/#servicios"><span class="ion-ios-arrow-round-forward mr-2"></span>Servicios</a>
+							<li><a href="https://www.centroamai.cl/#servicios"><span class="ion-ios-arrow-round-forward mr-2"></span>Servicios</a>
 							</li>
 							<li>
-								<a href="https://centroamai.cl/#especialistas"><span class="ion-ios-arrow-round-forward mr-2"></span>Especialistas</a>
+								<a href="https://www.centroamai.cl/#especialistas"><span class="ion-ios-arrow-round-forward mr-2"></span>Especialistas</a>
 							</li>
-							<li><a href="https://centroamai.cl/#contacto"><span class="ion-ios-arrow-round-forward mr-2"></span>Contacto</a>
+							<li><a href="https://www.centroamai.cl/#contacto"><span class="ion-ios-arrow-round-forward mr-2"></span>Contacto</a>
 							</li>
 
 						</ul>
