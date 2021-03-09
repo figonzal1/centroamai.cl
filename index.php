@@ -69,7 +69,7 @@ header("Content-Security-Policy:frame-ancestors 'none'; default-src 'self';img-s
 				<picture>
 					<source srcset="images/amai_logo_navbar.webp" type="image/webp">
 					<source srcset="images/amai_logo_navbar.png" type="image/png">
-					<img src="amai_logo.png" height="60">
+					<img src="amai_logo.png" alt="Centro de Apoyo a la Maternidad y Alimentación Infantil - Logo" height="60">
 				</picture>
 			</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav" aria-controls="nav" aria-expanded="false" aria-label="Toggle Navigation">
@@ -847,8 +847,8 @@ header("Content-Security-Policy:frame-ancestors 'none'; default-src 'self';img-s
 						</div>
 						<div>
 							<ul class="ftco-footer-social list-unstyled float-md-left float-lft">
-								<li class="ftco-animate"><a href="https://www.facebook.com/centroamai/" target="_blank"><span class="icon-facebook"></span></a></li>
-								<li class="ftco-animate"><a href="https://www.instagram.com/centroamai/" target="_blank"><span class="icon-instagram"></span></a></li>
+								<li class="ftco-animate"><a href="https://www.facebook.com/centroamai/" target="_blank" rel="noopener"><span class="icon-facebook"></span></a></li>
+								<li class="ftco-animate"><a href="https://www.instagram.com/centroamai/" target="_blank" rel="noopener"><span class="icon-instagram"></span></a></li>
 							</ul>
 						</div>
 
@@ -873,7 +873,7 @@ header("Content-Security-Policy:frame-ancestors 'none'; default-src 'self';img-s
 		</div>
 
 		<div class="text-center pb-1 ftco-footer-copyright">
-			<p class="px-2">Esta plantilla está hecha con <i class="icon-heart" aria-hidden="true"></i> por <a href="https://colorlib.com" target="_blank"><b>Colorlib</b></a>
+			<p class="px-2">Esta plantilla está hecha con <i class="icon-heart" aria-hidden="true"></i> por <a href="https://colorlib.com" target="_blank" rel="noopener"><b>Colorlib</b></a>
 				y adaptada por <a href="https://figonzal.cl"><b>figonzal.cl</b></a>
 				<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 			</p>
