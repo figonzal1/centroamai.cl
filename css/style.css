@@ -10243,6 +10243,23 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
   }
 }
 
+.owl-carousel.home-slider .slider-item .slider-text h2 {
+  font-size: 60px;
+  color: #fff;
+  line-height: 1.2;
+  font-weight: 800;
+}
+
+.owl-carousel.home-slider .slider-item .slider-text h2 span {
+  display: block;
+}
+
+@media (max-width: 991.98px) {
+  .owl-carousel.home-slider .slider-item .slider-text h2 {
+    font-size: 40px;
+  }
+}
+
 .owl-carousel.home-slider .slider-item .slider-text .subheading {
   font-size: 18px;
   font-weight: 400;

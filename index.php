@@ -108,7 +108,7 @@ header("Content-Security-Policy:frame-ancestors 'none'; default-src 'self';img-s
 			<div class="container">
 				<div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="false">
 					<div class="col-md-8 text-center ftco-animate">
-						<h1 class="h1-responsive mb-4">Centro Amaï - La Serena</h1>
+						<h2 class="h1-responsive mb-4">Centro Amaï - La Serena</h2>
 						<!--<p><a href="#" class="btn btn-secondary px-4 py-3 mt-3">Read More</a></p>-->
 					</div>
 				</div>
@@ -120,7 +120,7 @@ header("Content-Security-Policy:frame-ancestors 'none'; default-src 'self';img-s
 			<div class="container">
 				<div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="false">
 					<div class="col-md-8 text-center ftco-animate">
-						<h1 class="h1-responsive mb-4">Apoyo a la Maternidad y Alimentación Infantil</h1>
+						<h2 class="h1-responsive mb-4">Apoyo a la Maternidad y Alimentación Infantil</h2>
 						<!--<p><a href="#" class="btn btn-secondary px-4 py-3 mt-3">Read More</a></p>-->
 					</div>
 				</div>
